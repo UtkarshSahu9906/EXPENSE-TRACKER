@@ -4,7 +4,7 @@
 
 | Dashboard | Add Transaction | Reports |
 |-----------|-----------------|---------|
-| ![Dashboard](/screenshots/ExpenseTracker1.png) | ![Add Transaction](/screenshots/ExpenseTracker2.png) | ![Reports](/screenshots/ExpenseTracker3.png) |
+| ![Dashboard](/ss/ExpenseTracker1.png) | ![Add Transaction](/ss/ExpenseTracker2.png) | ![Reports](/ss/ExpenseTracker3.png) |
 
 A simple yet powerful Android application to track your income and expenses with intuitive charts and data persistence.
 
