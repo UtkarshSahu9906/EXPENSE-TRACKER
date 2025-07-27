@@ -1,6 +1,6 @@
 # Expense Tracker 📊
 
-
+![App Screenshot](/screenshots/ExpenseTracker.png)
 A simple yet powerful Android application to track your income and expenses with intuitive charts and data persistence.
 
 ## Features ✨
