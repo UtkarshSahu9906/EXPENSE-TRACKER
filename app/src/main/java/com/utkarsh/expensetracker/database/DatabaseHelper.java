@@ -1,5 +1,6 @@
 package com.utkarsh.expensetracker.database;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -105,6 +106,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     // Get all transactions
+    @SuppressLint("Range")
     public List<Transaction> getAllTransactions() {
         List<Transaction> transactions = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_TRANSACTIONS + " ORDER BY " + KEY_DATE + " DESC";
@@ -128,6 +130,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     }
 
     // Get all categories
+    @SuppressLint("Range")
     public List<Category> getAllCategories() {
         List<Category> categories = new ArrayList<>();
         String selectQuery = "SELECT * FROM " + TABLE_CATEGORIES;

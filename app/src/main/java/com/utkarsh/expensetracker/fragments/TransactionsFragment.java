@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import com.utkarsh.expensetracker.R;
 import com.utkarsh.expensetracker.adapters.TransactionAdapter;
 import com.utkarsh.expensetracker.database.DatabaseHelper;
+import com.utkarsh.expensetracker.models.Transaction;
 
 import java.util.List;
 
@@ -34,7 +35,7 @@ public class TransactionsFragment extends Fragment {
     }
 
     private void loadTransactions() {
-        List<SurfaceControl.Transaction> transactions = dbHelper.getAllTransactions();
+        List<Transaction> transactions = dbHelper.getAllTransactions();
         adapter = new TransactionAdapter(getActivity(), transactions);
         recyclerView.setAdapter(adapter);
     }
