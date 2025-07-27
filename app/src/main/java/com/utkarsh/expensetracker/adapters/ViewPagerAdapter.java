@@ -1,4 +1,4 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.adapters;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

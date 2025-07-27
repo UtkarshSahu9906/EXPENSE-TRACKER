@@ -1,4 +1,4 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,8 +7,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+
+import com.utkarsh.expensetracker.R;
+import com.utkarsh.expensetracker.models.Transaction;
+
 import java.util.List;
 import java.util.Locale;
 

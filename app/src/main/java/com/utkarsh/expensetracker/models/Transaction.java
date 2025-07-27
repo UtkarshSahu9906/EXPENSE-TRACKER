@@ -1,4 +1,4 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.models;
 
 public class Transaction {
     private int id;

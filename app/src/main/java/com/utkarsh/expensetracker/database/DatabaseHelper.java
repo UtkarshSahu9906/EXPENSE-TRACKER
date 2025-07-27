@@ -1,10 +1,15 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.database;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.utkarsh.expensetracker.models.Category;
+import com.utkarsh.expensetracker.models.CategorySummary;
+import com.utkarsh.expensetracker.models.Transaction;
+
 import java.util.ArrayList;
 import java.util.List;
 

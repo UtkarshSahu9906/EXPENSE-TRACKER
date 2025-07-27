@@ -1,4 +1,4 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.activities;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +8,11 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.utkarsh.expensetracker.models.Category;
+import com.utkarsh.expensetracker.database.DatabaseHelper;
+import com.utkarsh.expensetracker.R;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;

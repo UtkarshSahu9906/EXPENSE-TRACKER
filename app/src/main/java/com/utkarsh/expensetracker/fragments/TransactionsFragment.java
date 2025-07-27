@@ -1,4 +1,4 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.fragments;
 
 import android.os.Bundle;
 import androidx.fragment.app.Fragment;
@@ -8,6 +8,11 @@ import android.view.LayoutInflater;
 import android.view.SurfaceControl;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.utkarsh.expensetracker.R;
+import com.utkarsh.expensetracker.adapters.TransactionAdapter;
+import com.utkarsh.expensetracker.database.DatabaseHelper;
+
 import java.util.List;
 
 public class TransactionsFragment extends Fragment {

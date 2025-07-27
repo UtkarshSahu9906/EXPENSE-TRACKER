@@ -1,20 +1,19 @@
-package com.utkarsh.expensetracker;
+package com.utkarsh.expensetracker.activities;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import com.google.android.material.tabs.TabLayout;
+import com.utkarsh.expensetracker.database.DatabaseHelper;
+import com.utkarsh.expensetracker.R;
+import com.utkarsh.expensetracker.fragments.SummaryFragment;
+import com.utkarsh.expensetracker.fragments.TransactionsFragment;
+import com.utkarsh.expensetracker.adapters.ViewPagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
     private DatabaseHelper dbHelper;
